@@ -1,5 +1,6 @@
 #index.css
 **External**
+```
 .button{
   background-color: hsl(200,100%,50%);
   color: red;
@@ -8,9 +9,11 @@
   border: none;
   cursor: pointer;
 }
+```
 **module**
 *with modules wwe don't have to worry about naming conflicts*
 /Button/Button.jsx
+```
 import styles from './Button.module.css'
 function Button(){
     return(
@@ -18,7 +21,9 @@ function Button(){
     );
 }
 export default Button
+```
 /Button/Button.module.css
+```
 .button{
   background-color: hsl(200,100%,50%);
   color: red;
@@ -27,10 +32,11 @@ export default Button
   border: none;
   cursor: pointer;
 }
+```
 #inline 
 *inline styling reduces the readiblithy ,covinent easy to understand*
 /Button.jsx
-
+```
 function Button(){
     const styles = {
 
@@ -47,7 +53,9 @@ function Button(){
     );
 }
 export default Button
+```
 /App.jsx
+```
 import Button from './Button.jsx'
 function App() {
   return (
@@ -59,3 +67,4 @@ function App() {
 }
 
 export default App;
+```
