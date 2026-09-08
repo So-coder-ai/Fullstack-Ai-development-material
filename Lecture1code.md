@@ -1,4 +1,5 @@
 #App.jsx
+```
 import Card from "./Card.jsx"
 
 function App() {
@@ -9,9 +10,9 @@ function App() {
     
   );
 }
-
+```
 export default App;
-
+```
 #card.jsx
 import mems from './assets/download.jpg'
 function Card(){
@@ -24,7 +25,8 @@ function Card(){
     );
 }
 export default Card
-
+```
+```
 #index.jsx
 .card{
   border: 1px solid hsl(0,0%,80%);
@@ -52,3 +54,4 @@ export default Card
   margin:5px;
   color: hsl(0,0%,10%);
 }
+```
